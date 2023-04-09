@@ -1,0 +1,92 @@
+
+  
+
+
+body{
+//   background: $primary-color;
+
+}
+
+.top-head{
+   h1{
+
+    text-align: center;
+    margin-top: 7px;
+  font-family: $primary-font-style;
+
+   }
+
+   ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    gap: 0.8rem;
+
+
+     a{
+        color: black;
+     }
+
+
+     button{
+           
+        background-color: black;
+        color: whitesmoke;
+        padding: 0.7rem;
+        border-radius: 8px;
+
+
+
+        &:hover{
+            background-color: white;
+        color: black;
+
+        }
+   
+     }
+   }
+
+}
+
+
+
+
+
+nav{
+    background-color: $primary-color;
+
+  
+
+    ul{
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        a{
+            color: black;
+            text-decoration: none;
+            font-size: $primary-font;
+        
+        
+          &::after{
+            content: '';
+            height: 2px;
+            background-color: black;
+            color: black;
+            display: block;
+            margin: auto;
+            width: 0%;
+            transition: 0.5s;
+          }
+          &:hover::after{
+
+            width: 100%;
+          }
+        
+        }
+
+    }
+}

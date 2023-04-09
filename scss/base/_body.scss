@@ -1,0 +1,38 @@
+main{
+    img{
+        width: 50vh;
+        // height: 70px;
+    }
+}
+
+.parent-1{
+    display: flex;
+    justify-content: space-around;
+    // align-items: center;
+}
+
+
+
+.main-news{
+
+    margin-top: 2rem;
+}
+
+.ads{
+
+    border: 1px black solid;
+    height: 20vh;
+    margin: 30px 80px;
+    padding: 2rem;
+
+    background-image: url(/image/glass.png);
+}
+
+.sidebar{
+margin-top: 2rem;
+
+    img{
+    width: 90px;
+ }
+
+}
