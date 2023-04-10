@@ -1,6 +1,6 @@
-main{
+.big-img{
     img{
-        width: 50vh;
+        width: 70vh;
         // height: 70px;
     }
 }
@@ -20,12 +20,11 @@ main{
 
 .ads{
 
-    border: 1px black solid;
-    height: 20vh;
-    margin: 30px 80px;
-    padding: 2rem;
+    height: 299px;
 
-    background-image: url(/image/glass.png);
+
+    background-image: url(/NEWS-WEBSITE/image/ADS-1.png);
+    background-position:right ;
 }
 
 .sidebar{
@@ -35,4 +34,29 @@ margin-top: 2rem;
     width: 90px;
  }
 
+}
+
+
+//this is about morning news 
+
+
+.morning-news{
+
+
+   a{
+  
+
+     color: black;
+    
+    
+}
+   
+ h6{
+        text-decoration: none;
+        
+     }
+    img{
+        width: 10rem;
+        // border-radius: 50%;
+    }
 }
