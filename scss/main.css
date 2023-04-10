@@ -61,8 +61,8 @@ nav ul a:hover::after {
   width: 100%;
 }
 
-main img {
-  width: 50vh;
+.big-img img {
+  width: 70vh;
 }
 
 .parent-1 {
@@ -75,11 +75,9 @@ main img {
 }
 
 .ads {
-  border: 1px black solid;
-  height: 20vh;
-  margin: 30px 80px;
-  padding: 2rem;
-  background-image: url(/image/glass.png);
+  height: 299px;
+  background-image: url(/NEWS-WEBSITE/image/ADS-1.png);
+  background-position: right;
 }
 
 .sidebar {
@@ -87,4 +85,14 @@ main img {
 }
 .sidebar img {
   width: 90px;
+}
+
+.morning-news a {
+  color: black;
+}
+.morning-news h6 {
+  text-decoration: none;
+}
+.morning-news img {
+  width: 10rem;
 }/*# sourceMappingURL=main.css.map */
