@@ -39,7 +39,10 @@ margin-top: 2rem;
 
 //this is about morning news 
 
-
+a> h6{
+        text-decoration: none;
+        
+     }
 .morning-news{
 
 
@@ -51,12 +54,30 @@ margin-top: 2rem;
     
 }
    
- h6{
-        text-decoration: none;
-        
-     }
+
     img{
         width: 10rem;
         // border-radius: 50%;
     }
+}
+
+
+.parent-3{
+
+position: relative;
+text-align: center;
+
+
+  .img-text{
+color: rgb(0, 0, 0);
+    position: absolute;
+    top: 60%;
+     font-weight:500 ;
+
+// border: 1px black solid;
+    box-shadow: inset 0px -60px 0px 120px rgb(136, 133, 133);
+    // right: 5px;
+    // z-index: 1;
+  }
+
 }

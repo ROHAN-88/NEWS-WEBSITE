@@ -13,6 +13,7 @@ body{
     text-align: center;
     margin-top: 7px;
   font-family: $primary-font-style;
+  font-size: 70px;
 
    }
 
@@ -26,6 +27,7 @@ body{
 
      a{
         color: black;
+        text-decoration: none;
      }
 
 
@@ -69,12 +71,13 @@ nav{
             color: black;
             text-decoration: none;
             font-size: $primary-font;
+            font-weight: 500;
         
         
           &::after{
             content: '';
             height: 2px;
-            background-color: black;
+            background-color: #EEEEEE;
             color: black;
             display: block;
             margin: auto;
