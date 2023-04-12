@@ -76,13 +76,14 @@ img{
 }
 
   .img-text{
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
     position: absolute;
+    
     bottom: 0%;
      font-weight:500 ;
-
+ margin-bottom: 0%;
 // border: 1px black solid;
-    box-shadow: inset 0px -60px 0px 120px rgb(136, 133, 133);
+    box-shadow: inset 0px 1px 40px 10px rgb(0, 0, 0);
     // right: 5px;
     // z-index: 1;
   }
@@ -102,6 +103,7 @@ img{
   text-align: center;
   color: red;
  font-size: 20px;
+ font-weight: 600;
    }
    p::after{
 

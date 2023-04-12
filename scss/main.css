@@ -98,11 +98,12 @@ nav ul a:hover::after {
   height: 180px;
 }
 .parent-3 .img-text {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   position: absolute;
   bottom: 0%;
   font-weight: 500;
-  box-shadow: inset 0px -60px 0px 120px rgb(136, 133, 133);
+  margin-bottom: 0%;
+  box-shadow: inset 0px 1px 40px 10px rgb(0, 0, 0);
 }
 
 .cards {
@@ -112,6 +113,7 @@ nav ul a:hover::after {
   text-align: center;
   color: red;
   font-size: 20px;
+  font-weight: 600;
 }
 .cards .cards-items p::after {
   content: "";
