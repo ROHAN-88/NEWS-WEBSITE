@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  text-decoration: none;
 }
 
 .top-head h1 {
@@ -90,25 +89,47 @@ nav ul a:hover::after {
   width: 90px;
 }
 
-a > h6 {
-  text-decoration: none;
-}
-
-.morning-news a {
-  color: black;
-}
-.morning-news img {
-  width: 10rem;
-}
-
 .parent-3 {
+  margin-top: 3rem;
   position: relative;
   text-align: center;
+}
+.parent-3 img {
+  height: 180px;
 }
 .parent-3 .img-text {
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 60%;
+  bottom: 0%;
   font-weight: 500;
   box-shadow: inset 0px -60px 0px 120px rgb(136, 133, 133);
+}
+
+.cards {
+  margin-top: 6rem;
+}
+.cards .cards-items p {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+.cards .cards-items p::after {
+  content: "";
+  background-color: gray;
+  height: 2px;
+  display: block;
+}
+.cards .cards-items img {
+  width: 240px;
+  height: 240px;
+}
+.cards h5 {
+  margin-top: 1rem;
+}
+.cards a {
+  text-decoration: none;
+  color: black;
+}
+.cards a:hover {
+  color: rgb(64, 64, 147);
 }/*# sourceMappingURL=main.css.map */

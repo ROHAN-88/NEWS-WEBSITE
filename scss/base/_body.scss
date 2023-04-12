@@ -25,6 +25,7 @@
 
     background-image: url(/NEWS-WEBSITE/image/ADS-1.png);
     background-position:right ;
+
 }
 
 .sidebar{
@@ -39,39 +40,45 @@ margin-top: 2rem;
 
 //this is about morning news 
 
-a> h6{
-        text-decoration: none;
-        
-     }
-.morning-news{
+// .morning-news{
 
 
-   a{
-  
+//    a{
+//   text-decoration: none;
 
-     color: black;
+//      color: black;
     
+//      &:hover{
+
+//         color: rgb(57, 64, 147);
+//      }
     
-}
+// }
    
 
-    img{
-        width: 10rem;
-        // border-radius: 50%;
-    }
-}
+//     img{
+//         width: 10rem;
+//         // border-radius: 50%;
+//     }
+// }
 
 
+
+// start of parent-3 
 .parent-3{
-
+margin-top: 3rem;
 position: relative;
 text-align: center;
 
 
+img{
+    height: 180px;
+}
+
   .img-text{
-color: rgb(0, 0, 0);
+   color: rgb(0, 0, 0);
     position: absolute;
-    top: 60%;
+    bottom: 0%;
      font-weight:500 ;
 
 // border: 1px black solid;
@@ -79,5 +86,48 @@ color: rgb(0, 0, 0);
     // right: 5px;
     // z-index: 1;
   }
+
+}
+
+
+
+//start of the parent -4 --cards   
+
+.cards{
+
+    margin-top: 6rem;
+
+ .cards-items{
+   p{
+  text-align: center;
+  color: red;
+ font-size: 20px;
+   }
+   p::after{
+
+    content: '';
+    background-color: gray;
+    height: 2px;
+    display: block;
+   }
+    img{
+        width: 240px;
+        height: 240px;
+    }
+ }
+  
+h5{
+    margin-top: 1rem;
+}
+ a{
+  
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+
+        color: rgb(64, 64, 147);
+    }
+ }
 
 }
