@@ -10,7 +10,7 @@ function sub(){
     subbutton.innerHTML = "SUBSCIBED";
   
 }
-
+//---------------------------------------------------------
 
 
 // owl crousel ----------------------
