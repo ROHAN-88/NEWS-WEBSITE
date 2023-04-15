@@ -75,7 +75,12 @@ h4{
     width: 100%;
   }
   
-
+  .ads {
+    height: 299px;
+    background-image: url(/NEWS-WEBSITE/image/ADS-1.png);
+    background-position: right;
+  }
+  
 
 
 
